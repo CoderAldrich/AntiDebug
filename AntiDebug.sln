@@ -1,7 +1,9 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2012
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "AntiDebug_Parent", "AntiDebug_Parent.vcxproj", "{0BAFEF3D-0768-4B6F-8546-6807C4D9DD2F}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "DetectParentProcess", "AntiDebug_Parent.vcxproj", "{0BAFEF3D-0768-4B6F-8546-6807C4D9DD2F}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "DebugPort", "DebugPort\DebugPort.vcxproj", "{F8E29941-C2A6-40FC-BA39-48766829A32C}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -13,6 +15,10 @@ Global
 		{0BAFEF3D-0768-4B6F-8546-6807C4D9DD2F}.Debug|Win32.Build.0 = Debug|Win32
 		{0BAFEF3D-0768-4B6F-8546-6807C4D9DD2F}.Release|Win32.ActiveCfg = Release|Win32
 		{0BAFEF3D-0768-4B6F-8546-6807C4D9DD2F}.Release|Win32.Build.0 = Release|Win32
+		{F8E29941-C2A6-40FC-BA39-48766829A32C}.Debug|Win32.ActiveCfg = Debug|Win32
+		{F8E29941-C2A6-40FC-BA39-48766829A32C}.Debug|Win32.Build.0 = Debug|Win32
+		{F8E29941-C2A6-40FC-BA39-48766829A32C}.Release|Win32.ActiveCfg = Release|Win32
+		{F8E29941-C2A6-40FC-BA39-48766829A32C}.Release|Win32.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
