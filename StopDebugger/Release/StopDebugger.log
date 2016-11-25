@@ -1,0 +1,21 @@
+﻿生成启动时间为 2016/11/25 17:56:30。
+     1>项目“E:\CODE_DIR\AntiDebug\StopDebugger\StopDebugger.vcxproj”在节点 2 上(Rebuild 个目标)。
+     1>ClCompile:
+         D:\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /Zi /nologo /W3 /WX- /O2 /Oi /Oy- /GL /D WIN32 /D NDEBUG /D _WINDOWS /D _UNICODE /D UNICODE /Gm- /EHsc /MT /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Yc"stdafx.h" /Fp"Release\StopDebugger.pch" /Fo"Release\\" /Fd"Release\vc110.pdb" /Gd /TP /analyze- /errorReport:prompt stdafx.cpp
+         stdafx.cpp
+         D:\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /Zi /nologo /W3 /WX- /O2 /Oi /Oy- /GL /D WIN32 /D NDEBUG /D _WINDOWS /D _UNICODE /D UNICODE /Gm- /EHsc /MT /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Yu"stdafx.h" /Fp"Release\StopDebugger.pch" /Fo"Release\\" /Fd"Release\vc110.pdb" /Gd /TP /analyze- /errorReport:prompt StopDebugger.cpp
+         StopDebugger.cpp
+       ResourceCompile:
+         C:\Program Files (x86)\Windows Kits\8.0\bin\x86\rc.exe /D _UNICODE /D UNICODE /l"0x0409" /nologo /fo"Release\StopDebugger.res" StopDebugger.rc 
+       Link:
+         D:\Microsoft Visual Studio 11.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"E:\CODE_DIR\AntiDebug\Release\StopDebugger.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"E:\CODE_DIR\AntiDebug\Release\StopDebugger.pdb" /SUBSYSTEM:WINDOWS /OPT:REF /OPT:ICF /LTCG /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:\CODE_DIR\AntiDebug\Release\StopDebugger.lib" /MACHINE:X86 /SAFESEH Release\StopDebugger.res
+         Release\stdafx.obj
+         Release\StopDebugger.obj
+         正在生成代码
+         已完成代码的生成
+         StopDebugger.vcxproj -> E:\CODE_DIR\AntiDebug\Release\StopDebugger.exe
+     1>已完成生成项目“E:\CODE_DIR\AntiDebug\StopDebugger\StopDebugger.vcxproj”(Rebuild 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:00.57
