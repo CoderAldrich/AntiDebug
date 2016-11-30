@@ -19,6 +19,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "PEBHeapFlags", "PEBHeapFlag
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "PEBForceFlags", "PEBForceFlags\PEBForceFlags.vcxproj", "{4375D567-B571-4567-8AB5-DACB8B3A3D0A}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "HeapTail", "HeapTail\HeapTail.vcxproj", "{218EF7D4-ABAB-4096-BF63-4956D97D152A}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Win32 = Debug|Win32
@@ -61,6 +63,10 @@ Global
 		{4375D567-B571-4567-8AB5-DACB8B3A3D0A}.Debug|Win32.Build.0 = Debug|Win32
 		{4375D567-B571-4567-8AB5-DACB8B3A3D0A}.Release|Win32.ActiveCfg = Release|Win32
 		{4375D567-B571-4567-8AB5-DACB8B3A3D0A}.Release|Win32.Build.0 = Release|Win32
+		{218EF7D4-ABAB-4096-BF63-4956D97D152A}.Debug|Win32.ActiveCfg = Debug|Win32
+		{218EF7D4-ABAB-4096-BF63-4956D97D152A}.Debug|Win32.Build.0 = Debug|Win32
+		{218EF7D4-ABAB-4096-BF63-4956D97D152A}.Release|Win32.ActiveCfg = Release|Win32
+		{218EF7D4-ABAB-4096-BF63-4956D97D152A}.Release|Win32.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
