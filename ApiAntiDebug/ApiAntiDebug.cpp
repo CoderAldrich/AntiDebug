@@ -19,19 +19,29 @@ BOOL WINAPI IsDebug()
 	{
 		bRet = TRUE;
 	}
-
+	
+	// 1.直接调用API
 	bRet = IsDebuggerPresent();
 
 	__asm
 	{
-		// IsDebuggerPresent函数原型，获取PEB地址，PEB第三个字节存放的调试标志
+		// 2. IsDebuggerPresent函数原型，获取PEB地址，PEB第三个字节存放的调试标志
 		mov     eax, fs:[0x30]
 		movzx   eax,byte ptr ds:[eax+2]
 		mov		bRet, eax
 	}
 
-	// 查看制定进程是否被调试，本质还是调用NtQueryInformationProcess查看debugport
+	// 3. 查看制定进程是否被调试，本质还是调用NtQueryInformationProcess查看debugport
 	CheckRemoteDebuggerPresent(OpenProcess(PROCESS_ALL_ACCESS, FALSE, GetCurrentProcessId()), &bRet);
+
+	// 4. 查看PEB的NtGlobalFlags标志位
+	__asm
+	{
+		mov eax, fs:[30h]
+		mov eax, [eax+68h]
+		and eax, 0x70
+		mov bRet, eax
+	}
 
 	return (bRet == 1) || (dwRet == 1);
 }
