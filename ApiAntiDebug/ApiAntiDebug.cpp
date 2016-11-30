@@ -10,6 +10,16 @@ BOOL WINAPI IsDebug()
 	DWORD dwRet = 0;
 	BOOL bRet = FALSE;
 
+	// 检查函数开头是否有CC断点以及是否被hook
+	if (*(BYTE*)IsDebug == 0xCC)
+	{
+		bRet = TRUE;
+	}
+	if (*(BYTE*)IsDebug == 0x64)
+	{
+		bRet = TRUE;
+	}
+
 	bRet = IsDebuggerPresent();
 
 	__asm
