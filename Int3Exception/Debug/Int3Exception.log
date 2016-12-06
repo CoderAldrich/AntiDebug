@@ -1,0 +1,23 @@
+﻿生成启动时间为 2016/12/6 15:18:32。
+     1>项目“E:\CODE_DIR\AntiDebug\Int3Exception\Int3Exception.vcxproj”在节点 2 上(Rebuild 个目标)。
+     1>ClCompile:
+         D:\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _WINDOWS /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yc"stdafx.h" /Fp"Debug\Int3Exception.pch" /Fo"Debug\\" /Fd"Debug\vc110.pdb" /Gd /TP /analyze- /errorReport:prompt stdafx.cpp
+         stdafx.cpp
+         D:\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _WINDOWS /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yu"stdafx.h" /Fp"Debug\Int3Exception.pch" /Fo"Debug\\" /Fd"Debug\vc110.pdb" /Gd /TP /analyze- /errorReport:prompt Int3Exception.cpp
+         Int3Exception.cpp
+     1>e:\code_dir\antidebug\int3exception\int3exception.cpp(26): warning C4733: 内联 asm 分配到“FS:0”: 处理程序未注册为安全处理程序
+     1>e:\code_dir\antidebug\int3exception\int3exception.cpp(29): warning C4733: 内联 asm 分配到“FS:0”: 处理程序未注册为安全处理程序
+     1>e:\code_dir\antidebug\int3exception\int3exception.cpp(47): warning C4731: “AntiDebug”: 框架指针寄存器“ebp”被内联程序集代码修改
+     1>e:\code_dir\antidebug\int3exception\int3exception.cpp(52): warning C4731: “AntiDebug”: 框架指针寄存器“ebp”被内联程序集代码修改
+       ResourceCompile:
+         C:\Program Files (x86)\Windows Kits\8.0\bin\x86\rc.exe /D _UNICODE /D UNICODE /l"0x0409" /nologo /fo"Debug\Int3Exception.res" Int3Exception.rc 
+       Link:
+         D:\Microsoft Visual Studio 11.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"E:\CODE_DIR\AntiDebug\Debug\Int3Exception.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"E:\CODE_DIR\AntiDebug\Debug\Int3Exception.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:\CODE_DIR\AntiDebug\Debug\Int3Exception.lib" /MACHINE:X86 Debug\Int3Exception.res
+         Debug\Int3Exception.obj
+         Debug\stdafx.obj
+         Int3Exception.vcxproj -> E:\CODE_DIR\AntiDebug\Debug\Int3Exception.exe
+     1>已完成生成项目“E:\CODE_DIR\AntiDebug\Int3Exception\Int3Exception.vcxproj”(Rebuild 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:00.54
